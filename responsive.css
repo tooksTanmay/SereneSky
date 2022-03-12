@@ -1,0 +1,100 @@
+@media only screen and (max-width: 1410px){
+    .vector_image{
+        margin-top: 150px;
+    }
+    .fake_text_div{
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 1246px){
+    .section1_container{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .vector_image{
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 664px){
+    .section1_container{
+        width: 97%;
+    }
+    .fake_text{
+        padding-left: 10px;
+        border-left: 5px solid rgb(175, 99, 99);
+    }
+    
+    .links:hover{
+        border-bottom: none;
+    }
+    #hamBurger{
+        position: fixed;    
+        display: flex;
+        z-index: 3;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        right: 5%;
+        top: 11.75%;
+    }
+    #mainHeading{
+        display: block;
+    }
+    #company_name{
+        position: fixed;
+        left: 5%;
+        z-index: 4;
+    }
+    #headerLinks{
+        background-color: whitesmoke;
+        position: fixed;
+        right: 0%;
+        top: 21.5%;
+        z-index: -5;
+        height: 99.9vh;
+        width: 0vw;
+        transition: 0.5s ease-in-out;
+    }
+    #header_links_insider_div{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #header_links_insider_div>span{
+        font-family: "Montserrat";
+        font-size: 18px;
+        position: absolute;
+        top: 5%;
+        right: 70%;
+    }
+    #links_div_container{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 12%;
+        left: 22%;
+    }
+    .links{
+        font-family: "Montserrat";
+        font-size: 16px;
+        margin: 10px 0px;
+        padding: 0%;
+    }
+    #OCD_blog_link{
+        display: block;
+        font-family: "Montserrat";
+        font-weight:lighter;
+        text-decoration-line: none;
+        margin-left: 25px;
+        color: rgb(65, 65, 65);
+        font-size: 15.5px;
+    }
+    #menu{
+        display: block;
+    }
+    .vector_image>img{
+        width: 100%;
+        height: 100%;
+    }
+}
